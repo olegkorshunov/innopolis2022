@@ -24,3 +24,16 @@ The aim of this competition is to build a model for the classification of crops 
 
 ### Metric
 $$Recall=\frac{TP}{TP+FN}$$
+
+#Solution:
+
+My main mistake it's that I don't use geodata :disappointed:. 
+
+The data contains a lot of missing values, I tried to restore them both with the help of interpolation and with the help of neural networks, I used different smoothing, but this did not improve the speed. there were too many missing values and it can probably be considered a leak, and this main reason why my lightGBM overfitting on public lb.
+
+Here, I public my some result. 
+
+* cnn1d_train_val_.ipynb - CNN with conv1d, I suppose this my best model and I don't chose her(( because I'm belived in lightGBM and this was a mistake. 
+* missing_values - try to recover missing values with KNN and CNN with conv2d, as and other methods this is don't improve  my cv.
+* lightgbm - here I in first time tryed to use optuna instead of gridsearchCV.
+* cb - outliers in dataset with [object importance](https://catboost.ai/en/docs/features/object-importances-calcution)
