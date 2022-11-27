@@ -23,4 +23,4 @@ The aim of this competition is to build a model for the classification of crops 
   6 - sugar beet  
 
 ### Metric
-$$Recall={TP}{TP+FN}$$
+$$Recall=\frac{TP}{TP+FN}$$
