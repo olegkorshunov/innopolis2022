@@ -25,7 +25,7 @@ The aim of this competition is to build a model for the classification of crops 
 ### Metric
 $$Recall=\frac{TP}{TP+FN}$$
 
-#Solution:
+# Solution:
 
 My main mistake it's that I don't use geodata :disappointed:. 
 
