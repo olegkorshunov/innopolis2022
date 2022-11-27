@@ -29,7 +29,7 @@ $$Recall=\frac{TP}{TP+FN}$$
 
 My main mistake it's that I don't use geodata :disappointed:. 
 
-The data contains a lot of missing values, I tried to restore them both with the help of interpolation and with the help of neural networks, I used different smoothing, but this did not improve the speed. there were too many missing values and it can probably be considered a leak, and this main reason why my lightGBM overfitting on public lb.
+The data contains a lot of missing values, I tried to restore them both with the help of interpolation and with the help of neural networks, I used different smoothing, but this did not improve the score. there were too many missing values and it can probably be considered a leak, and this main reason why my lightGBM overfitting on public lb.
 
 Here, I public my some result. 
 
