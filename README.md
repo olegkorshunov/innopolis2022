@@ -1,6 +1,6 @@
 # innopolis2022
 
-Earth remote sensing data from space allow solving a large number of production tasks. For example, to determine plant cultures based on the analysis of time series of vegetation index (NDVI) values ​​obtained during the growing season (the period of growth and development of plants).  
+Earth remote sensing data from space allow solving a large number of production tasks. For example, to determine plant cultures based on the analysis of time series of vegetation index (NDVI $\in (0,1)$) values ​​obtained during the growing season (the period of growth and development of plants).  
 
 NDVI is an index determined by absorption and reflection plants of the rays of the red and near-infrared zone of the spectrum when analyzing satellite images. By the value of this index, one can judge the development of the green mass of plants during the growing season. The more green biomass in the fields, the higher the NDVI value.
 
